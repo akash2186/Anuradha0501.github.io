@@ -1,0 +1,133 @@
+.mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:black;
+  display:none;
+width: 5478px; 
+font-size: 32pt;  
+height: 1000px; 
+display: none; 
+opacity: 0.5;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:850px;
+  display:none;
+  z-index:100;
+  padding:20px;
+  border-radius: 5px white;
+  text-align: center;
+}
+#boxes #dialog {
+  width:1200px; 
+  height:600px;
+  border-radius:5px white;
+  padding: 10px 10px 10px 10px;
+  background-color:black;
+  font-size: 15pt;
+opacity: 0.8;
+}
+
+.agree:hover{
+  background-color: #D1D1D1;
+}
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{
+	color: red;
+}
+
+.search-box1 {
+		
+		position: relative;
+		float: left;
+			
+		color:white;
+		
+		height:500px;	
+	}
+.search-box2 {
+		
+		position: relative;
+		float: center;
+		margin-top: -30px;	
+		color:white;
+			
+		height:500px;	
+	}
+.search-box3 {
+		
+		position: relative;
+		float: right;
+		margin-top: -30px;	
+		color:white;
+			
+		height:500px;	
+	}
+
+
+
+.img {
+
+			width: 200px;
+			height: 100px;
+			margin-top: -30px;
+			border: 3px ;
+			border-radius: 10%;
+	
+}
+
+	.input10 {
+
+			
+			display: block;
+			height: 450px;	
+			width: 360px;
+			top: 40px;
+			left: 400px;
+			font-family: fontawesome;
+			font-size: 20px;
+			border-radius: 20px;
+			padding: 0px 12px;
+			position: absolute;
+			z-index: -100;
+	}
+	
+	.input4 {
+
+			
+			display: block;
+			height: 450px;	
+			width: 360px;
+			top: 10px;
+			left: -10px;
+			font-family: fontawesome;
+			font-size: 20px;
+			border-radius: 20px;
+			padding: 0px 12px;
+			position: absolute;
+			z-index: -100;
+	}
+	
+	.input12 {
+
+			
+			display: block;
+			height: 450px;	
+			width: 360px;
+			top: -430px;
+			left: 790px;
+			font-family: fontawesome;
+			font-size: 20px;
+			border-radius: 20px;
+			padding: 0px 12px;
+			position: absolute;
+			z-index: -100;
+	}
