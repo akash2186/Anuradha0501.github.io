@@ -1,13 +1,9 @@
 
 	body {
+		
 		background-size: cover;
-		background-image : url("E-tutionBg.jpg" );		 
-		background-repeat: no-repeat;
-  		background-attachment: fixed;		
-		background-position: center;
-
-		height: 100%; 
-		overflow:hidden;
+		height: 500px;  
+           background: url(class1bg.jpeg);		
   	
 	}
 
@@ -160,11 +156,6 @@
   
 }
 
-	mark { 
-
- 		background-color: #ec4e20;
-  		color: white;
-	}
 
 	.div{
 		height: 80px;
@@ -178,42 +169,28 @@
 	}
 
 
-	.search-box {
-		
-			position: absolute;
-			align: center;			
-			left: 35%;
-			transform: translate(-50%,-60%);
-	}
-	.search-box1 {
-		
-			position: absolute;
-			align: center;			
-			left: 50%;
-			transform: translate(-50%,-60%);
-	}
 	
 	.mydiv{
 		
 		height: 100px;
 		width:100%;
 		margin-top:2px;
-		background-color:#EC4E20;
+		
 		position:relative;
-		color:purple;
+		color:black;
 		font-family:san-serif;
 		font-size:25px;
 	}
 	.mydiv1{
-		color: purple;
-		font-size:40px;
+		color: black;
+		font-size:20px;
 		
-		margin: 10px 10px;
+		margin: 10px 5px;
 		position: fixed;
 		font-family: monospace, san-serif;
 	}
 	.mydiv2{
-		color: purple;
+		color: black;
 		font-size:30px;
 		text-align:center;		
 		margin: 10px 10px;
@@ -229,12 +206,7 @@
 		width: 101%;
 		height: 80%;
 		position: absolute;
-		margin-left: -20px;
-		margin-right: 10px;
-		margin-top: -20px;
-		border-color: 3px solid orange;
-		border-radius: 0% 0% 50% 50%/ 0% 0% 87% 98%;
-
+		
 
 	
 	}
@@ -290,7 +262,102 @@ serif;
 		border-radius: 45% 45% 45% 45%;
 	
 	}
+.im1 {
+		
+                         width: 230px;
+               border: 2px solid white;
+			height: 170px;
+			margin-top: -50px;
+                        margin-left:170px;
+			border: 4px ;
+			border-radius: 20%;
 
+
+	
+
+
+	}
+
+.im2  {
+		
+                         width: 200px;
+               border: 2px solid white;
+			height: 170px;
+			margin-top: -150px;
+                        margin-left:210px;
+			border: 4px ;
+			border-radius: 20%;
+
+
+	
+
+
+	}
+
+	.search-box {
+		
+			position: absolute;
+			align: center;			
+			left: 35%;
+			transform: translate(-50%,-60%);
+	}
+
+	.search-box1 {
+		
+			position: absolute;
+			align: center;			
+			left: 20px;
+			top:10px;
+			transform: translate(-50%,-30%);
+	}
+	.input121 {
+
+			background-color: transparent;
+			border: 2px ;
+			display: block;
+			height: 500px;	
+			width: 400px;
+			top: 260px;
+			left: 400px;
+			font-family: fontawesome;
+			font-size: 20px;
+			border-radius: 20px;
+			padding: 0px 12px;
+			position: absolute;
+			z-index: -100;
+	}
+	
+	
+
+	.input10 {
+
+			background-color: darkorange;
+			border: 2px solid black;
+			
+			display: block;
+			height: 400px;	
+			width: 500px;
+			top: 600px;
+			left: 5px;
+			font-family: Libre Baskerville;
+			font-size: 20px;
+			border-radius: 20px;
+			padding: 0px 12px;
+			position: absolute;
+			z-index: -100;
+	}
+	
+	
+	
+	.st {
+
+			margin-top: -5px;
+			color: black;
+			width: 60px;
+			height: 10px;
+			
+			
+	}
 	
 	.bg-gradient {
 	
@@ -304,19 +371,202 @@ gradient(gray,golden rod);
 			z-index: -100;
 
 	}
-		
+
+
+
+
+
+
+
+.center h1{
+	color: black;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: left;
+}
+
+
+.first-box {
+  
+
+
+background-color:darkorange;
+			border: 2px solid black;
+			display: block;
+			height: 350px;	
+			width: 400px;
+			top: 150px;
+			left: 150px;
+			font-family: fontawesome;
+			font-size: 20px;
+			border-radius: 20px;
+			padding: 0px 12px;
+			position: absolute;
+			z-index: -100;
 	
+}
+
+.first-box button {
+   background-color: #FFA500;
+    border: 2px solid black;
+    color: blue;
+margin-left:100px;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+   align:center;
+    cursor: pointer;
+left:50px;
+    
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+border-radius:7px;
+
+
+
+
+
+
+
+}
+
+
+.btn{
+	background-color: #FFA500;
+    border: 2px solid black;
+    color: blue;
+margin-left:100px;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+   align:center;
+    cursor: pointer;
+left:50px;
+    
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+border-radius:7px;
+
+
+}
+.first-box hh {
+  background-color: lightgrey;
+  border: 2px solid black;
+  color: Black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+ 
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+
+ 
+}
+.first-box h {
+    
+    color: Black;
+    padding-right: 100px;
+    padding-top: 0;
+    width: 500px;
+    padding: 10px;
+}
+
+.second-box {
+  
+
+
+background-color: darkorange;
+			border: 2px solid black;
+			display: block;
+			height: 350px;	
+			width: 420px;
+			top: 150px;
+			left: 700px;
+			font-family: fontawesome;
+			font-size: 20px;
+			border-radius: 20px;
+			padding: 0px 12px;
+			position: absolute;
+			z-index: -100;
+}
+
+.second-box button {
+    background-color: #FFA500;
+    border: 2px solid black;
+    color: blue;
+    padding: 25px 25px;
+margine-left:500px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+   align:center;
+    cursor: pointer;
+left:50px;
+    
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+border-radius:7px;}
+
+
+
+
+.second-box h {
+    list-style-type: square;
+    color: Black;
+    padding-right: 100px;
+    padding-top: 0;
+    width: 500px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+		
+	.footer {
+		
+			background: yellow;
+			color: black;
+			top: 1600px;
+			height: 300px;
+			width: 100%;
+			margin-left: -10px;
+			position: absolute;
+			z-index: -100;
+	
+			
+	}
+	
+	.col {
+			font-family:Calibri;
+			letter-spacing:1px;
+                        text-align:justify;	
+			width: 100%;
+			height: 100%;
+			float: center;
+	}
        .footer1 {
 		
 			
 			color: black;
-			top: 560px;
+			top: 700px;
 			height: 50px;
 			width: 100%;
 			margin-left: -2px;
 			position: absolute;
 			z-index: -100;
-			
+font-weight:bold;
 	
 			
 	}
@@ -328,7 +578,29 @@ gradient(gray,golden rod);
 			width: 100%;
 			height:100px;
 			float: center;
-			background-color:#EC4E20;
+	}
+
+.footer2 {
+		
+			
+			color: purple;
+			top: 300px;
+			height: 600px;
+			width: 100%;
+			margin-left: -2px;
+			position: absolute;
+			z-index: -100;
+	
+			
+	}
+	
+	.col2 {
+			font-family:Calibri;
+			letter-spacing:1px;
+                        text-align:left;	
+			width: 100%;
+			height: 50%;
+			float: center;
 	}
 
 
@@ -341,35 +613,25 @@ gradient(gray,golden rod);
 		
 	.img {
 
-			width: 200px;
-			height: 60px;
-			margin-top: -130px;
-			border: 3px ;
-			border-radius: 10%;
+			width: 180px;
+			height: 170px;
+              		margin-left:200px;
+			margin-top: -600px;
+		border: 2px solid white;
+			border-radius: 20%;
+
 	
 }
-.img2 {
+.imgx {
 
-			width: 200px;
-			height: 100px;
-			margin-top: -130px;
-			border: 3px solid purple;
+			width: 150px;
+			height: 150px;
+              margin-left:210px;
+			margin-top: -600px;
+		
 			border-radius: 20%;
 	
 }
-	.button {
-		  background: white;
-		  height: 50px;
-		  width: 150px;
-		  font-size:15px;
-		   border-radius:10px;
-		  border-color: white;
-		  text-align: center;
-		  color: black;
-		display:inline-block;
-
-}
-
 
 	
 	.img1 {
@@ -394,13 +656,13 @@ gradient(gray,golden rod);
 	
 	.siz {
 
-		margin-top: 600px;
+		margin-top: 1700px;
 		margin-left: 26%;
 		width: 800px;
 		height: 120px;
 		font-size:50px;
-		color: white;
-		text-align: center;
+		color: black;
+	text-align: center;
 		
 	
 	}
@@ -414,39 +676,7 @@ gradient(gray,golden rod);
 		height: 100px;
 	
 	}
-	.input10 {
 
-			background-color: darkorange;
-			border: 2px solid black;
-			display: block;
-			height: 230px;	
-			width: 320px;
-			top: 250px;
-			left: -180px;
-			font-family: fontawesome;
-			font-size: 20px;
-			border-radius: 20px;
-			padding: 0px 12px;
-			position: absolute;
-			z-index: -100;
-	}
-	
-	.input4 {
-
-			background-color:darkorange;
-			border: 2px solid black;
-			display: block;
-			height: 230px;	
-			width: 320px;
-			top: 250px;
-			left: -380px;
-			font-family: fontawesome;
-			font-size: 20px;
-			border-radius: 20px;
-			padding: 0px 12px;
-			position: absolute;
-			z-index: -100;
-	}
 
 .content-inner {margin-top: 440px !important;}
 .content-outer {margin-bottom: 450px !important;}
@@ -474,6 +704,7 @@ gradient(gray,golden rod);
   float:left;
 width:100%;
 height:390px;
+
 }
 
 
@@ -508,7 +739,7 @@ align-left;
   position: absolute;
   background:transparent;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ back
   z-index: 1;
 }
 
