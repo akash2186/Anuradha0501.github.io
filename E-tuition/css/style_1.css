@@ -8,7 +8,9 @@
 ---------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=corben:300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=MOntserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?
+
+family=MOntserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 
 
@@ -1479,7 +1481,7 @@ input[type="radio"] .styled:checked+label::after {
 	background-color:darkorange;
 	border: 2px solid black;
 	display: block;
-	height: 380px;	
+	height: 400px;	
 	width: 400px;
 	top: 150px;
 	left: 150px;
@@ -1571,7 +1573,7 @@ input[type="radio"] .styled:checked+label::after {
 	background-color: darkorange;
 	border: 2px solid black;
 	display: block;
-	height: 380px;	
+	height: 400px;	
 	width: 420px;
 	top: 150px;
 	left: 700px;
